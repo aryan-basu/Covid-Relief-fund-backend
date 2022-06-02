@@ -22,7 +22,7 @@ console.log('abc')
 
 
 
-app.listen(port,()=>{
+app.listen(process.env.PORT || 5000,()=>{
  /* firebase.database().ref('temp/foodinfo').on('value', (snapshot) => {
     tempdata.push(snapshot.val());
   })

@@ -9,7 +9,7 @@
   "main": "index.js",
   "start": "node index.js",
   "scripts": {
-    "start": "node index.js"
+    "dev": "node index.js"
   },
   "keywords": [],
   "author": "",

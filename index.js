@@ -10,6 +10,11 @@ app.get('/download',async(req,res) => {
 
     });
 
+ app.get('/',async(req,res) => {
+//console.log(daydata.length);
+console.log('abc')
+  
+  });
     const port=process.env.PORT||5000
 
 

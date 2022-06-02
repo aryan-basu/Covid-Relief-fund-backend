@@ -15,14 +15,14 @@ app.get('/download',async(req,res) => {
 console.log('abc')
   
   });
-    const port=process.env.PORT||5000
+    const PORT=process.env.PORT||5000
 
 
 
 
 
 
-app.listen(process.env.PORT || 5000,()=>{
+app.listen(PORT,()=>{
  /* firebase.database().ref('temp/foodinfo').on('value', (snapshot) => {
     tempdata.push(snapshot.val());
   })
@@ -45,7 +45,7 @@ app.listen(process.env.PORT || 5000,()=>{
   })
   */
 
-  console.log(`listening to the port number at ${port}`);
+  console.log(`listening to the port number at ${PORT}`);
 })
 
 function  createInvoice(res) {
